@@ -1,0 +1,65 @@
+body {
+  padding: 2em;
+}
+
+.headerContainer {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: tomato;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+  height: 10vh;
+}
+
+.footerContainer {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: left;
+  background: lightgreen;
+  font-weight: bold;
+  padding: 10px;
+  height: 10vh
+}
+
+.mainContainer {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mainContentItem {
+  text-align: left;
+  background: deepskyblue;
+  flex: 5 0px;
+  order: 1;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+
+}
+
+.asideItem {
+  padding: 10px;
+  text-align: left;
+  background: gold;
+  order: 2;
+}
+
+.navigationItem {
+  padding: 10px;
+  text-align: left;
+  background: hotpink;
+  order: 3;
+}
+
+.subColumn {
+  padding: 10px;
+  align-content: left;
+  flex: 1 0 0;
+  border: 0px solid green;
+}
