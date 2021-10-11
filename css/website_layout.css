@@ -1,65 +1,62 @@
-body {
-  padding: 2em;
-}
-
 .headerContainer {
-  display: flex;
-  flex-flow: column wrap;
-  background-color: tomato;
-  font-weight: bold;
-  text-align: left;
-  padding: 10px;
-  height: 10vh;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: lightcoral;
+    font-weight: bold;
+    text-align: center;
+    padding: 100px;
+    height: 2vh;
 }
 
 .footerContainer {
-  display: flex;
-  flex-flow: column wrap;
-  align-content: left;
-  background: lightgreen;
-  font-weight: bold;
-  padding: 10px;
-  height: 10vh
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: lightgreen;
+    font-weight: bold;
+    padding: 50px;
+    height: 10vh;
 }
 
 .mainContainer {
-  display: flex;
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
 }
 
 .mainContentItem {
-  text-align: left;
-  background: deepskyblue;
-  flex: 5 0px;
-  order: 1;
+    text-align: left;
+    background: lightskyblue;
+    flex: 5 0px;
+    order: 1;
 }
 
 article {
-  padding: 10px;
-  margin: 10px;
-  background: aqua;
-
+    padding: 10px;
+    margin: 10px;
+    background: lightcyan;
 }
 
 .asideItem {
-  padding: 10px;
-  text-align: left;
-  background: gold;
-  order: 2;
+    padding: 50px;
+    align-content: center;
+    text-align: justify;
+    background: lightyellow;
+    order: 2;
 }
 
 .navigationItem {
-  padding: 10px;
-  text-align: left;
-  background: hotpink;
-  order: 3;
+    padding: 10px;
+    text-align: center;
+    background: lightpink;
+    order: 3;
+    font-size: 25px;
 }
 
 .subColumn {
-  padding: 10px;
-  align-content: left;
-  flex: 1 0 0;
-  border: 0px solid green;
+    padding: 10px;
+    align-content: left;
+    flex: 1 0 0;
+    border: 0px solid lightgreen;
 }
